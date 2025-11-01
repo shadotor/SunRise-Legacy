@@ -1,7 +1,6 @@
 package com.nightshadow.sunrisecreative.creative.listener;
 
 
-import com.nightshadow.sunrisecreative.api.NewsAPI;
 import com.nightshadow.sunrisecreative.api.menu.Items;
 import com.nightshadow.sunrisecreative.creative.command.other.Spawn;
 import com.nightshadow.sunrisecreative.api.menu.Item;
@@ -40,12 +39,6 @@ public class PlayerListener implements Listener {
         Player p = e.getPlayer();
         Spawn.createSpawn();
         if (findSpawn() != null) {
-            if (! NewsAPI.isRead(p)) {
-                if (NewsAPI.DialogExists()) {
-                    NewsAPI.setRead(p, true);
-                    NewsAPI.showDialog(p);
-                }
-            }
             p.clearActivePotionEffects();
             p.setFoodLevel(20);
             p.getInventory().clear();
