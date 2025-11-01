@@ -1,0 +1,89 @@
+name: Sunrise-Creative
+version: '${version}'
+main: com.nightshadow.sunrisecreative.Sunrise_Creative
+api-version: '1.21.7'
+commands:
+  donate:
+    description: "???"
+  StaffChat:
+    description: "Send message to Staff chat"
+    usage: /staffchat <message>
+    aliases: [sc]
+  locate:
+    description: "Locate player"
+    usage: /locate <player>
+    aliases: [найти,whereis,где,find]
+  join:
+    description: "world join command"
+    usage: /join <id>
+    aliases: [ad]
+  creative:
+    description: "Sunrise Creative command"
+    usage: /<command>
+    aliases: [sunrise, cr, suncr, sr]
+  spawn:
+    description: "teleports you to spawn"
+    usage: /spawn
+    aliases: [s, ы]
+  world:
+    description: "world control"
+    usage: /<command>
+    aliases: [plot,p, game]
+  lang:
+    description: "Language settings"
+    usage: /lang
+    aliases: [locale, language, язык]
+  worlds:
+    description: "All worlds"
+    usage: /worlds
+    aliases: [g, games]
+  build:
+    description: "World Statement management"
+    aliases: [игшдв]
+  play:
+    description: "World Statement management"
+    aliases: [здфн]
+  log:
+    description: "Show world logs"
+    usage: /log <Argument>
+  dev:
+    description: "Teleport you to development world"
+    usage: /dev
+    aliases: [вум]
+  config:
+    description: "Config manage command"
+    usage: /config
+    aliases: [cfg]
+  myworlds:
+    description: "Manage your worlds"
+    usage: /myworlds
+    aliases: [mw]
+  script:
+    description: "Scripting command"
+    usage: /script <OPERATION>
+    aliases: [code]
+  gamemode:
+    description: "Vanilla command"
+    usage: /gamemode <GAMEMODE>
+    aliases: [gm]
+  give:
+    description: "Vanilla command"
+    usage: /give <PLAYER> <ITEM> [COUNT]
+  playsound:
+    description: "Vanilla command"
+    usage: /playsound <Player> <Sound>
+  news:
+    description: "SunRise NEWS"
+  staffchat:
+    aliases: [stc,sc,ыс,ыес]
+
+
+permissions:
+  sunrise.logs:
+    default: false
+  sunrise.limiting:
+    default: false
+  sunrise.staffChat:
+    default: false
+  sunrise.devTp:
+    default: false

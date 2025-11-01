@@ -1,0 +1,78 @@
+
+# SUNRISE CONFIGURATION
+
+# ACCESS
+creative-op: false
+
+# SERVER SETTINGS
+max-player-limit: 100
+
+# WORLD SETTINGS
+
+# BASIC SETTINGS
+# World size settings
+# For example: 1024 means world with 1024x1024 size.
+world-size-min: 128
+world-size-default: 512
+world-size-max: 2048
+# Limit size of op's worlds*
+# Note: it doesn't change min/default size, max only.
+op-world-size-limit: 2048
+# Limits the number of worlds that one player can create.*
+world-limit: 5
+# Limit for the players with op.*
+op-world-limit: -1
+
+# Note: in seconds, max - 60s
+world-creating-cooldown: 0
+
+
+# PERMISSIONS FOR ALL WORLD
+# Allow worlds using coding
+allow-coding: true
+# Allow players change size of worlds before creating it.
+allow-resizing: true
+# Allow players change size before creating world
+allow-resizing-after-creating: false
+# Allow server operators have owner's permissions in other worlds
+ops-world-permissions: true
+# Give server operators permissions to moderating chat
+ops-moderator-permissions: true
+
+# OTHER
+# Allow to use /chat command, need moderator permissions
+chat-tweaks: true
+# Divides chat to several channels
+# Channel list:
+# Global chat (Prefix ! or /cc)
+# Support chat (/sc or /ask ) (ask for question, /sc for supports)
+# Admin chat (/ac) (requires be server operator )
+# Moderation chat (/mc) (requires moderation permissions)
+# Local (Without prefix)
+channeled-chat: true
+
+# CODING
+# WORLD
+# (In blocks)
+line-offset: 3
+# Offset of ends of platform.
+offset: 3
+
+lines: 50
+columns: 50
+# LIMITS
+# (Per second of time)
+# Limit for blocks, that code can set at second
+block-set-limit: 10000
+
+# NOTES
+# * - Negative value means unlimited number
+
+
+
+
+
+
+
+
+
