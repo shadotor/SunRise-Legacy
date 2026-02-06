@@ -1,10 +1,22 @@
-# SunRise-archive
-Sunrise Creative+ plugin had been archivated at 1 Nov. 2025. 
+# <div align="center">SunRise: Legacy</div>
+<div align="center">An official open-sorce edition of plugin</div>
 
-Plugin requirements:
-  Paper Minecraft server with version 1.21.8 or higher (lower versions never been tested)
-  Java 21(Other versions have never been tested)
+# Plugin functional
+It is simple Creative plugin, that allows players create their own worlds.
+Plugin includes:
+- Custom chat
+- World system
+- Coding world and coding system
 
-It is archive version of plugin. We don't give any guarantees of plugin work.
+# What means "Legacy"?
 
-This archive is distributed under the MIT License.
+"Legacy" means the plugin is not in active supporting and development, and it is NOT ACTUAL VERSION OF PLUGIN
+Updates will released rarely and fix some critical bugs/compilation errors, but WILL NOT add a lot of content.
+
+# Can I use this plugin on my server(use this plugin source to create my own plugin)
+
+Yes, you can freely use plugin sources, because it protected by MIT license.
+
+# How can I report bug?
+
+You can just create issue and describe your problems.
