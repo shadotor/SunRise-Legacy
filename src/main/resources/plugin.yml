@@ -1,4 +1,4 @@
-name: Sunrise-Creative
+name: Sunrise Legacy
 version: '${version}'
 main: com.nightshadow.sunrisecreative.Sunrise_Creative
 api-version: '1.21.7'
