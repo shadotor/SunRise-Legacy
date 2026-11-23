@@ -1,22 +1,19 @@
 # <div align="center">SunRise: Legacy</div>
-<div align="center">An official open-sorce edition of plugin</div>
+<div align="center">An official open-source edition of the plugin</div>
 
-# Plugin functional
-It is simple Creative plugin, that allows players create their own worlds.
-Plugin includes:
+# Plugin Functionality
+It is a simple Creative plugin that allows players to create their own worlds.
+The plugin includes:
 - Custom chat
 - World system
-- Coding world and coding system
+- A coding world and a coding system
 
-# What means "Legacy"?
+# What does "Legacy" mean?
+"Legacy" means the plugin is no longer actively supported or developed, and it is NOT THE CURRENT VERSION OF THE PLUGIN.
+Updates will be released rarely to fix critical bugs/compilation errors, but WILL NOT add much content.
 
-"Legacy" means the plugin is not in active supporting and development, and it is NOT ACTUAL VERSION OF PLUGIN
-Updates will released rarely and fix some critical bugs/compilation errors, but WILL NOT add a lot of content.
+# Can I use this plugin on my server (or use its source code to create my own plugin)?
+Yes, you can freely use the plugin's source code because it is protected by the MIT license.
 
-# Can I use this plugin on my server(use this plugin source to create my own plugin)
-
-Yes, you can freely use plugin sources, because it protected by MIT license.
-
-# How can I report bug?
-
-You can just create issue and describe your problems.
+# How can I report a bug?
+You can just create an issue and describe your problem.

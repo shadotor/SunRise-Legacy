@@ -1,0 +1,10 @@
+command:
+  locale:
+    message:
+      info: "This command change your server language \n&eUsage: /locale <lang>"
+  creative:
+    message:
+      info: "This command support you to browse worlds\n&eUsage /creative <arguments>"
+menu:
+  worlds: "Player worlds"
+  my-world: "My worlds"
